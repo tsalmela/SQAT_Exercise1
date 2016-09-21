@@ -90,3 +90,4 @@ RefactoringAction 1474461481815 TestBowling.java RENAME testScoreFirstThrowStrik
 RefactoringAction 1474461505496 TestBowling.java RENAME testScoreFirstThrowStrike()/2=>void test10Frame() METHOD
 RefactoringAction 1474461506526 TestBowling.java RENAME test10Frame()=>void test10Frames() METHOD
 EditAction 1474461511877 BowlingGame.java 645 4 2 0
+EditAction 1474461512001 TestBowling.java 1409 6 20 2
