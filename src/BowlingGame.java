@@ -30,6 +30,7 @@ public class BowlingGame {
 		for(int i = 0; i < 10; i++){
 			Frame n = frames.get(i);
 			apu = true;
+			
 			//Test if strike
 			if(n.getFirstThrow() == 10){
 				//What happens if Frame n is the last frame?
