@@ -41,11 +41,11 @@ public class BowlingGame {
 					Frame y = frames.get(i-1);
 					if(y.getFirstThrow() == 10){
 						//Lets add the required points from next throw to the score
-						score = score + x.score();
+						score = score + x.getFirstThrow();
 					}	
 				}
 				
-				apu = false;
+			apu = false;
 			}
 			//Test if spare
 			if(n.score() == 10 && n.getFirstThrow() != 10){
