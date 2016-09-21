@@ -55,5 +55,27 @@ public class TestBowling {
 		bowling.addFrame(new Frame(2,6));
 	}
 	
+	@Test
+	public void testScoreOf10Frames() throws BowlingException {
+		BowlingGame bowling = new BowlingGame();
+		
+		bowling.addFrame(new Frame(1,5));
+		bowling.addFrame(new Frame(3,6));
+		bowling.addFrame(new Frame(7,2));
+		bowling.addFrame(new Frame(3,6));
+		bowling.addFrame(new Frame(4,4));
+		bowling.addFrame(new Frame(5,3));
+		bowling.addFrame(new Frame(3,3));
+		bowling.addFrame(new Frame(4,5));
+		bowling.addFrame(new Frame(8,1));
+		bowling.addFrame(new Frame(2,6));
+		
+		int score = bowling.score();
+		
+		assertEquals("Score incorrect", score, 81);
+	}
+	
+	
+	
 	
 }
