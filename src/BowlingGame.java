@@ -26,19 +26,25 @@ public class BowlingGame {
 	public int score() throws BowlingException{
 		//to be implemented: should return game score
 		int score = 0;
+		boolean apu = true;
 		for(int i = 0; i < 10; i++){
 			Frame n = frames.get(i);
+			apu = false;
 			//Test if strike
 			if(n.getFirstThrow() == 10){
 				//What happens if Frame n is the last frame?
 				Frame x = frames.get(i+1);
 				score = score + n.score() + x.score();
-			} else score = score + n.score();
+				apu = false;
+			}
 			//Test if spare
 			if(n.score() == 10 && n.getFirstThrow() != 10){
 				Frame x = frames.get(i+1);
 				score = score + n.score() + x.getFirstThrow();
-			} else score = score + n.score();
+				apu = false;
+			}
+			//Jos ei strike tai spare
+			if(apu) score = score + n.score();
 		}
 		
 		return score;
