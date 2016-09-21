@@ -98,3 +98,6 @@ RefactoringAction 1474461742792 TestBowling.java ADD void test FIELD
 RefactoringAction 1474461751544 TestBowling.java RENAME test=>void testScoreOf10Frames() METHOD
 EditAction 1474461812899 BowlingGame.java 720 4 4 0
 EditAction 1474461813024 TestBowling.java 1997 7 33 3
+UnitTestCaseAction 1474461813323 TestBowling.java FAIL
+UnitTestSessionAction 1474461813323 TestBowling.java FAIL
+EditAction 1474461832636 TestBowling.java 1997 7 33 3
