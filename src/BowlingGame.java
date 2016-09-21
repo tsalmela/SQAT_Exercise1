@@ -26,10 +26,10 @@ public class BowlingGame {
 	public int score() throws BowlingException{
 		//to be implemented: should return game score
 		int score = 0;
-		boolean apu = true;
+		boolean apu = false;
 		for(int i = 0; i < 10; i++){
 			Frame n = frames.get(i);
-			apu = false;
+			apu = true;
 			//Test if strike
 			if(n.getFirstThrow() == 10){
 				//What happens if Frame n is the last frame?
