@@ -5,3 +5,4 @@
 1474461513081 test-first 4 743 true
 1474461876182 test-first 3 133 true
 1474462543508 refactoring 2A 0 false
+1474462684067 refactoring 2A 0 true
