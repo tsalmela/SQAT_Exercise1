@@ -60,3 +60,10 @@ RefactoringAction 1474460240838 TestBowling.java ADD Frame frame FIELD
 RefactoringAction 1474460242897 TestBowling.java REMOVE frame FIELD
 RefactoringAction 1474460242897 TestBowling.java REMOVE testFrameNumbers() METHOD
 EditAction 1474460427445 Frame.java 1098 6 10 0
+UnitTestCaseAction 1474460427745 TestBowling.java OK
+UnitTestSessionAction 1474460427745 TestBowling.java OK
+RefactoringAction 1474460450880 TestBowling.java ADD void test FIELD
+RefactoringAction 1474460452424 TestBowling.java RENAME test=>void testSc FIELD
+RefactoringAction 1474460453454 TestBowling.java RENAME testSc=>void testScore FIELD
+RefactoringAction 1474460455513 TestBowling.java RENAME testScore=>void testScore() METHOD
+EditAction 1474460604665 TestBowling.java 714 4 6 1

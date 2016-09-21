@@ -20,5 +20,16 @@ public class TestBowling {
 		Frame frame = new Frame(11,2);
 	}
 	
+	@Test
+	public void testScore() throws BowlingException {
+		//Arrange
+		Frame frame = new Frame(2,4);
+		//Act
+		int score = frame.score();
+		//Assert
+		assertEquals("Score incorrect", 6, score);
+		
+	}
+	
 	
 }
