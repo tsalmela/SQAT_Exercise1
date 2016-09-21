@@ -14,7 +14,8 @@ public class Frame {
 	public int getSecondThrow() {
 		return secondThrow;
 	}
-	
+
+	/*
 	public void setFirstThrow(int firstThrow) {
 		this.firstThrow = firstThrow;
 	}
@@ -22,6 +23,7 @@ public class Frame {
 	public void setSecondThrow(int secondThrow){
 		this.secondThrow = secondThrow;
 	}
+*/
 
 	//returns the score of a single frame
 	public int score(){

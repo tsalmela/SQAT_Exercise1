@@ -18,3 +18,14 @@ UnitTestSessionAction 1474459318480 TestBowling.java FAIL
 RefactoringAction 1474459343488 TestBowling.java ADD void testFrame FIELD
 RefactoringAction 1474459347092 TestBowling.java RENAME testFrame=>void testFrameNegativeValues() METHOD
 EditAction 1474459375500 TestBowling.java 443 3 7 0
+UnitTestCaseAction 1474459375818 TestBowling.java FAIL
+UnitTestSessionAction 1474459375818 TestBowling.java FAIL
+RefactoringAction 1474459418874 Frame.java REMOVE score() METHOD
+RefactoringAction 1474459418874 Frame.java REMOVE setSecondThrow(int) METHOD
+RefactoringAction 1474459418874 Frame.java REMOVE isSpare() METHOD
+RefactoringAction 1474459418874 Frame.java REMOVE isStrike() METHOD
+RefactoringAction 1474459418874 Frame.java REMOVE setFirstThrow(int) METHOD
+RefactoringAction 1474459423008 Frame.java ADD int score() METHOD
+RefactoringAction 1474459423008 Frame.java ADD boolean isStrike() METHOD
+RefactoringAction 1474459423008 Frame.java ADD boolean isSpare() METHOD
+EditAction 1474459575484 Frame.java 854 6 7 0
