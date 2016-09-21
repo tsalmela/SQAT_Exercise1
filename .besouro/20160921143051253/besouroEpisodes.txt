@@ -125,3 +125,6 @@
 1474460734324 test-addition 1 112 true
 1474461513081 test-first 4 743 true
 1474461513082 test-first 4 743 true
+1474461876182 test-first 3 133 true
+1474461876183 test-first 3 133 true
+1474461876184 test-last 1 133 false

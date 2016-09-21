@@ -26,9 +26,11 @@ public class BowlingGame {
 	public int score(){
 		//to be implemented: should return game score
 		int score = 0;
-		for(Frame n : frames){
+		for(int i = 0; i < 10; i++){
+			Frame n = frames.get(i);
 			score = score + n.score();
 		}
 		return score;
 	}
+	
 }
