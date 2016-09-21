@@ -183,3 +183,6 @@ RefactoringAction 1474464556064 TestBowling.java ADD void testScoreOf10FramesTwo
 RefactoringAction 1474464565346 TestBowling.java RENAME testScoreOf10FramesTwoSparesRow()/2=>void testScoreOf10FramesSpareAsLastFrame() METHOD
 RefactoringAction 1474464733312 BowlingGame.java ADD import java.util.ArrayList IMPORT
 EditAction 1474464874726 TestBowling.java 5560 13 111 9
+UnitTestCaseAction 1474464875041 TestBowling.java FAIL
+UnitTestSessionAction 1474464875041 TestBowling.java FAIL
+EditAction 1474464950795 BowlingGame.java 1552 4 6 0
