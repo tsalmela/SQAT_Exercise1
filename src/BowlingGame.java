@@ -35,6 +35,13 @@ public class BowlingGame {
 				//What happens if Frame n is the last frame?
 				Frame x = frames.get(i+1);
 				score = score + n.score() + x.score();
+				
+				//Check if last throw was also a strike
+				Frame y = frames.get(i-1);
+				if(y.getFirstThrow() == 10){
+					//Lets add the required points from next throw to the score
+					score = score + x.score();
+				}
 				apu = false;
 			}
 			//Test if spare
