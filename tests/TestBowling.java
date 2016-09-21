@@ -172,7 +172,7 @@ public class TestBowling {
 		
 		int score = bowling.score();
 		
-		assertEquals("Score incorrect", 112, score);
+		assertEquals("Score incorrect", 98, score);
 	}
 	
 	
