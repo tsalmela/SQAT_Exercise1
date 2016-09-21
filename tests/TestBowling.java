@@ -31,5 +31,13 @@ public class TestBowling {
 		
 	}
 	
+	@Test
+	public void testScoreFirstThrowStrike() throws BowlingException {
+		//Arrange
+		Frame frame = new Frame(10,0);
+		int score = frame.score();
+		assertEquals("Score incorrect", 10, score);
+	}
+	
 	
 }

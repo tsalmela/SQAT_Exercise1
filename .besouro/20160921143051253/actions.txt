@@ -67,3 +67,11 @@ RefactoringAction 1474460452424 TestBowling.java RENAME test=>void testSc FIELD
 RefactoringAction 1474460453454 TestBowling.java RENAME testSc=>void testScore FIELD
 RefactoringAction 1474460455513 TestBowling.java RENAME testScore=>void testScore() METHOD
 EditAction 1474460604665 TestBowling.java 714 4 6 1
+UnitTestCaseAction 1474460604964 TestBowling.java OK
+UnitTestSessionAction 1474460604964 TestBowling.java OK
+RefactoringAction 1474460622312 TestBowling.java ADD void testScore FIELD
+RefactoringAction 1474460628490 TestBowling.java RENAME testScore=>void testScore2 FIELD
+RefactoringAction 1474460630034 TestBowling.java RENAME testScore2=>void testScore FIELD
+RefactoringAction 1474460680485 TestBowling.java RENAME testScore=>void testScoreFirstThrow FIELD
+RefactoringAction 1474460686148 TestBowling.java RENAME testScoreFirstThrow=>void testScoreFirstThrowStrike() METHOD
+EditAction 1474460734040 TestBowling.java 921 5 9 2
