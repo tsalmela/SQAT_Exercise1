@@ -92,3 +92,8 @@ RefactoringAction 1474461506526 TestBowling.java RENAME test10Frame()=>void test
 EditAction 1474461511877 BowlingGame.java 645 4 2 0
 EditAction 1474461512001 TestBowling.java 1409 6 20 2
 EditAction 1474461512111 Frame.java 915 6 10 0
+UnitTestCaseAction 1474461513065 TestBowling.java OK
+UnitTestSessionAction 1474461513081 TestBowling.java OK
+RefactoringAction 1474461742792 TestBowling.java ADD void test FIELD
+RefactoringAction 1474461751544 TestBowling.java RENAME test=>void testScoreOf10Frames() METHOD
+EditAction 1474461812899 BowlingGame.java 720 4 4 0
