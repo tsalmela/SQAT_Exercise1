@@ -37,7 +37,7 @@ public class BowlingGame {
 				score = score + n.score() + x.score();
 				
 				//Check if last throw was also a strike
-				if(i != 1){
+				if(i > 0){
 					Frame y = frames.get(i-1);
 					if(y.getFirstThrow() == 10){
 						//Lets add the required points from next throw to the score
