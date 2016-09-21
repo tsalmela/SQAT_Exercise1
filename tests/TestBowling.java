@@ -8,5 +8,12 @@ public class TestBowling {
 	public void test() {
 		fail("Not yet implemented");
 	}
+	
+	@Test
+	public void testFrame() {
+		Frame frame = new Frame(2,4);
+		frame.setFirstThrow(2);
+		frame.setSecondThrow(4);
+	}
 
 }
