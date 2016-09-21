@@ -76,7 +76,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void testScoreOf10Frames() throws BowlingException {
+	public void testScoreOf10FramesStrike() throws BowlingException {
 		BowlingGame bowling = new BowlingGame();
 		
 		bowling.addFrame(new Frame(10,0));
