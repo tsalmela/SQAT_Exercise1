@@ -15,5 +15,12 @@ public class TestBowling {
 		frame.setFirstThrow(2);
 		frame.setSecondThrow(4);
 	}
+	
+	@Test
+	public void testFrameNegativeValues() {
+		Frame frame = new Frame(-2,0);
+		frame.setFirstThrow(-2);
+		frame.setSecondThrow(0);
+	}
 
 }
