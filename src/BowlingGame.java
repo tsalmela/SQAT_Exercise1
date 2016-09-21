@@ -37,12 +37,12 @@ public class BowlingGame {
 				score = score + n.score() + x.score();
 				apu = false;
 			}
-			//Test if spare
+/*			//Test if spare
 			if(n.score() == 10 && n.getFirstThrow() != 10){
 				Frame x = frames.get(i+1);
 				score = score + n.score() + x.getFirstThrow();
 				apu = false;
-			}
+			} */
 			//Jos ei strike tai spare
 			if(apu) score = score + n.score();
 		}
