@@ -14,4 +14,9 @@ public class TestBowling {
 	public void testFrameNegatives() throws BowlingException {
 		Frame frame = new Frame(-2,3);
 	}
+	
+	@Test
+	public void testFrameTooLargeNumbers() throws BowlingException{
+		Frame frame = new Frame(11,2);
+	}
 }

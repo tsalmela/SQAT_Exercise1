@@ -44,3 +44,9 @@ RefactoringAction 1474459891808 TestBowling.java ADD void testFrameNegatives() M
 UnitTestCaseAction 1474459907349 TestBowling.java OK
 UnitTestSessionAction 1474459907349 TestBowling.java OK
 EditAction 1474460046923 Frame.java 960 6 8 0
+UnitTestCaseAction 1474460047253 TestBowling.java FAIL
+UnitTestSessionAction 1474460047253 TestBowling.java FAIL
+RefactoringAction 1474460069890 TestBowling.java ADD void testFrame FIELD
+RefactoringAction 1474460074008 TestBowling.java RENAME testFrame=>void testFrameTooLargeNumbers FIELD
+RefactoringAction 1474460075038 TestBowling.java RENAME testFrameTooLargeNumbers=>void testFrameTooLargeNumbers() METHOD
+EditAction 1474460177639 TestBowling.java 421 3 3 0
