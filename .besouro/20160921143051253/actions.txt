@@ -139,3 +139,9 @@ UnitTestSessionAction 1474463349477 TestBowling.testScoreOf10FramesStrike OK
 RefactoringAction 1474463364859 TestBowling.java ADD void testScoreOf10FramesStrike()/2 METHOD
 RefactoringAction 1474463370007 TestBowling.java RENAME testScoreOf10FramesStrike()/2=>void testScoreOf10FramesSpare() METHOD
 EditAction 1474463413579 TestBowling.java 3173 9 59 5
+UnitTestCaseAction 1474463413940 TestBowling.java OK
+UnitTestSessionAction 1474463413940 TestBowling.java OK
+RefactoringAction 1474463465717 TestBowling.java ADD void testScoreOf10FramesSpare()/2 METHOD
+RefactoringAction 1474463470881 TestBowling.java RENAME testScoreOf10FramesSpare()/2=>void testScoreOf10FramesSr() METHOD
+RefactoringAction 1474463473969 TestBowling.java RENAME testScoreOf10FramesSr()=>void testScoreOf10FramesStrikeAndSpare() METHOD
+EditAction 1474463496605 TestBowling.java 3769 10 72 6
