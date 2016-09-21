@@ -28,7 +28,10 @@ public class BowlingGame {
 		int score = 0;
 		for(int i = 0; i < 10; i++){
 			Frame n = frames.get(i);
-			score = score + n.score();
+			if(n.getFirstThrow() == 10){
+				Frame x = frames.get(i+1);
+				score = score + n.score() + x.score();
+			} else score = score + n.score();
 		}
 		return score;
 	}
