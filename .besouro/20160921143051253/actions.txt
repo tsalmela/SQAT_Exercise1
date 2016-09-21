@@ -50,3 +50,4 @@ RefactoringAction 1474460069890 TestBowling.java ADD void testFrame FIELD
 RefactoringAction 1474460074008 TestBowling.java RENAME testFrame=>void testFrameTooLargeNumbers FIELD
 RefactoringAction 1474460075038 TestBowling.java RENAME testFrameTooLargeNumbers=>void testFrameTooLargeNumbers() METHOD
 EditAction 1474460177639 TestBowling.java 421 3 3 0
+EditAction 1474460177764 Frame.java 1043 6 9 0
