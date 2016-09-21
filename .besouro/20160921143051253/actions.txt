@@ -1,0 +1,11 @@
+FileOpenedAction 1474457451456 BowlingGame.java 623 4 1 0
+FileOpenedAction 1474457707873 Frame.java 671 6 7 0
+FileOpenedAction 1474457967466 TestBowling.java 165 1 1 0
+RefactoringAction 1474458785718 Frame.java ADD int setSecondThrow() METHOD
+RefactoringAction 1474458801188 Frame.java RENAME setSecondThrow()=>int setSecondThrow(int) METHOD
+RefactoringAction 1474458806352 Frame.java RENAME setSecondThrow(int)=>int setFirstThrow(int) METHOD
+RefactoringAction 1474458830563 Frame.java ADD void setSecondThrow(int) METHOD
+RefactoringAction 1474458935161 TestBowling.java ADD void test FIELD
+RefactoringAction 1474458940824 TestBowling.java RENAME test=>void testFrame FIELD
+RefactoringAction 1474458941854 TestBowling.java RENAME testFrame=>void testFrame() METHOD
+EditAction 1474459317709 BowlingGame.java 785 4 5 0
